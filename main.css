@@ -1,0 +1,34 @@
+* {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.bann {
+    background: url("http://res.cloudinary.com/dxir7knlo/image/upload/c_scale,w_1067/v1497720408/IMG_20170422_122937_HDR_uzxch7.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.cen {
+    margin: 0 auto;
+    width: 700px;
+}
+
+.ban {
+    width: 100%;
+    height: 400px;
+    background: rgba(21, 21, 21, 0.7);
+}
+
+.name {
+    margin-top: 200px ! important;
+}
+
+.info {
+    height: 220px !important;
+    width: auto;
+}
+
+.data {
+    padding: 70px 0px 79px 0px;
+}
