@@ -38,6 +38,62 @@
     box-shadow: 0px 3px 3px black;
 }
 
+.quote {
+    background: #631264;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    min-height: 400px;
+    max-height: 1000px;
+}
+
+.quote:after {
+    background: inherit;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 50%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    transform: skewY(-1.5deg);
+    transform-origin: 100%;
+    z-index: -1;
+}
+
+.foot {
+    background: #631264;
+    padding: 40px 40px;
+    min-height: 300px;
+    color: white;
+}
+
+.ser {
+    margin-top: 60px !important;
+    color: #dcdcdc;
+    cursor: pointer;
+    padding: 20px 0px 20px 0px;
+}
+
+.ser:hover {
+    background-color: rgba(21, 21, 21, 0.7);
+}
+
+.foot-img {
+    height: 100px!important;
+    width: 100px !important;
+}
+
+.external {
+    color: white;
+    cursor: pointer;
+}
+
+.external:hover {
+    color: #1382f6;
+    ;
+}
+
 @media only screen and (max-width: 700px) {
     .cen {
         margin: 0 auto;
