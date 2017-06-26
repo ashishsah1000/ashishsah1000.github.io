@@ -3,6 +3,23 @@
     padding: 0 0 0 0;
 }
 
+.under_work {
+    background: url("http://blog.gocpabc.ca/wp-content/uploads/2011/12/Star-trophy.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.under_banner {
+    background: rgba(21, 21, 21, 0.7);
+    margin: 0px auto;
+    height: 400px;
+    min-width: 200px;
+    max-width: 400px;
+    padding: 40px 40px;
+    color: white;
+    margin-top: 100px
+}
+
 .bann {
     background: url("http://res.cloudinary.com/dxir7knlo/image/upload/c_scale,w_1067/v1497720408/IMG_20170422_122937_HDR_uzxch7.jpg");
     background-size: cover;
