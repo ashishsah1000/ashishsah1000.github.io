@@ -1,119 +1,202 @@
-* {
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
-}
-
-.under_work {
-    background: url("http://blog.gocpabc.ca/wp-content/uploads/2011/12/Star-trophy.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.under_banner {
-    background: rgba(21, 21, 21, 0.7);
-    margin: 0px auto;
-    height: 400px;
-    min-width: 200px;
-    max-width: 400px;
-    padding: 40px 40px;
-    color: white;
-    margin-top: 100px
-}
-
-.bann {
-    background: url("http://res.cloudinary.com/dxir7knlo/image/upload/c_scale,w_1067/v1497720408/IMG_20170422_122937_HDR_uzxch7.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.cen {
-    margin: 0 auto;
-    width: 700px;
-}
-
-.ban {
-    width: 100%;
-    max-height: 700px;
-    background: rgba(21, 21, 21, 0.7);
-    padding: 120px 0px 120px 0px;
-}
-
-.name {
-    margin-top: 50px ! important;
-}
-
-.info {
-    height: 220px !important;
-    width: auto;
-}
-
-.data {
-    padding: 70px 0px 79px 0px;
-}
-
-.pro:hover {
-    box-shadow: 0px 3px 3px black;
-}
-
-.quote {
-    background: #631264;
-    color: #fff;
-    position: relative;
-    z-index: 1;
-    min-height: 400px;
-    max-height: 1000px;
-}
-
-.quote:after {
-    background: inherit;
-    bottom: 0;
-    content: '';
-    display: block;
-    height: 50%;
-    left: 0;
-    position: absolute;
-    right: 0;
-    transform: skewY(-1.5deg);
-    transform-origin: 100%;
-    z-index: -1;
-}
-
-.foot {
-    background: #631264;
-    padding: 40px 40px;
-    min-height: 300px;
-    color: white;
-}
-
-.ser {
-    margin-top: 60px !important;
-    color: #dcdcdc;
-    cursor: pointer;
-    padding: 20px 0px 20px 0px;
-}
-
-.ser:hover {
-    background-color: rgba(21, 21, 21, 0.7);
-}
-
-.foot-img {
-    height: 100px!important;
-    width: 100px !important;
-}
-
-.external {
-    color: white;
-    cursor: pointer;
-}
-
-.external:hover {
-    color: #1382f6;
-    ;
-}
-
-@media only screen and (max-width: 700px) {
-    .cen {
-        margin: 0 auto;
-        width: 300px;
-    }
-}
+        * {
+            margin: 0 0 0 0;
+            padding: 0 0 0 0;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        p {
+            font-family: 'Raleway', sans-serif;
+            font-weight: 600;
+        }
+        
+        .bann {
+            background: url("http://res.cloudinary.com/dxir7knlo/image/upload/c_scale,w_1067/v1497720408/IMG_20170422_122937_HDR_uzxch7.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        
+        .cen {
+            margin: 0 auto;
+            width: 700px;
+        }
+        
+        .ban {
+            width: 100%;
+            max-height: 700px;
+            background: rgba(21, 21, 21, 0.7);
+            padding: 120px 0px 120px 0px;
+        }
+        
+        .name {
+            margin-top: 50px ! important;
+        }
+        
+        .info {
+            height: 220px !important;
+            width: auto;
+        }
+        
+        .data {
+            padding: 70px 0px 79px 0px;
+        }
+        
+        .pro:hover {
+            box-shadow: 0px 3px 3px black;
+        }
+        
+        .quote {
+            background: #631264;
+            color: #fff;
+            position: relative;
+            z-index: 1;
+            min-height: 400px;
+            max-height: 1000px;
+        }
+        
+        .quote:after {
+            background: inherit;
+            bottom: 0;
+            content: '';
+            display: block;
+            height: 50%;
+            left: 0;
+            position: absolute;
+            right: 0;
+            transform: skewY(-1.5deg);
+            transform-origin: 100%;
+            z-index: -1;
+        }
+        
+        .foot {
+            background: #631264;
+            padding: 40px 40px;
+            min-height: 300px;
+            color: white;
+        }
+        
+        .ser {
+            margin-top: 60px !important;
+            color: #dcdcdc;
+            cursor: pointer;
+            padding: 20px 0px 20px 0px;
+        }
+        
+        .ser:hover {
+            background-color: rgba(21, 21, 21, 0.7);
+        }
+        
+        .foot-img {
+            height: 100px!important;
+            width: 100px !important;
+        }
+        
+        .external {
+            color: white;
+            cursor: pointer;
+        }
+        
+        .external:hover {
+            color: #1382f6;
+            ;
+        }
+        
+        @media only screen and (max-width: 700px) {
+            .cen {
+                margin: 0 auto;
+                width: 300px;
+            }
+        }
+        /* sections of achivements */
+        
+        .box {
+            background: url("http://res.cloudinary.com/dxir7knlo/image/upload/v1500658402/trekking/IMG_20170422_140424_HDR.jpg");
+            height: 300px;
+            background-size: cover;
+        }
+        
+        .box_cover {
+            height: 100%;
+            width: 100%;
+            background: rgba(22, 22, 22, 0.7)
+        }
+        
+        .img_box {
+            padding: 50px 30px !important;
+        }
+        
+        .des_box {
+            padding: 50px 30px !important;
+        }
+        
+        .img_sizer {
+            height: 180px !important;
+            width: 180px !important;
+        }
+        
+        .bann_trek {
+            background: url("http://res.cloudinary.com/dxir7knlo/image/upload/v1500658402/trekking/IMG_20170422_140424_HDR.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        
+        .sticked_menu {
+            position: fixed;
+            bottom: 0px;
+            right: 0px;
+            padding: 20px 20px;
+            height: 60px;
+            width: 250px;
+        }
+        
+        .box_cofas {
+            background: url("http://www.cmseducation.org/campuses/rajendranagar3/images/COFAS_2016_1.jpg");
+            height: 300px;
+            background-size: cover;
+        }
+        
+        .gallery a {
+            margin-top: 20px !important;
+            margin-left: 20px;
+        }
+        
+        .gallery a img {
+            margin-top: 20px !important;
+            margin-left: 20px;
+            height: 200px;
+            width: 250px;
+        }
+        
+        @media only screen and (max-width: 750px) {
+            .box {
+                height: 450px;
+            }
+            .box_cofas {
+                height: 450px;
+            }
+        }
+        
+        @media only screen and (max-width: 550px) {
+            .box {
+                height: 550px;
+            }
+            .box_cofas {
+                height: 550px;
+            }
+            .des_box {
+                padding: 10px 10px !important;
+            }
+            .gallery a img {
+                height: 100px;
+                width: 150px;
+            }
+        }
+        
+        @media only screen and (max-width: 550px) {
+            .gallery a img {
+                height: 100px;
+                width: 100px;
+            }
+        }
