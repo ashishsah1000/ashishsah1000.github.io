@@ -11,6 +11,42 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.js'></script>
     <script src="script.js"></script>
+
+
+    <script type="text/javascript">
+        //<![CDATA[ 
+        (function() {
+            var configuration = {
+                "token": "d22beff0d081195eb8921b26f8631f9d",
+                "excludeDomains": [
+                    "ashishsah.me"
+                ],
+                "capping": {
+                    "limit": 5,
+                    "timeout": 24
+                },
+                "exitScript": {
+                    "enabled": true
+                },
+                "popUnder": {
+                    "enabled": true
+                }
+            };
+            var script = document.createElement('script');
+            script.async = true;
+            script.src = '//cdn.shorte.st/link-converter.min.js';
+            script.onload = script.onreadystatechange = function() {
+                var rs = this.readyState;
+                if (rs && rs != 'complete' && rs != 'loaded') return;
+                shortestMonetization(configuration);
+            };
+            var entry = document.getElementsByTagName('script')[0];
+            entry.parentNode.insertBefore(script, entry);
+        })();
+        //]]>
+    </script>
+
+
 </head>
 
 <body>
