@@ -16,22 +16,45 @@
             background: url("http://res.cloudinary.com/dxir7knlo/image/upload/c_scale,w_1067/v1497720408/IMG_20170422_122937_HDR_uzxch7.jpg");
             background-size: cover;
             background-attachment: fixed;
+            overflow: hidden;
+            height: 100vh;
         }
         
         .cen {
             margin: 0 auto;
             width: 700px;
+            margin-top: 200px;
         }
-        
+        .a-info{
+            font-size: 20px;
+            color:white;
+            font-weight: 300;
+            text-align: center;
+            letter-spacing: : 1.2;
+            
+        }
         .ban {
             width: 100%;
-            max-height: 700px;
-            background: rgba(21, 21, 21, 0.7);
-            padding: 120px 0px 120px 0px;
+            height: 100vh;
+            max-height: 100%;
+            background: rgba(94, 29, 156, .5); /* fallback for old browsers */
+            background: -webkit-linear-gradient(to top right, rgba(94, 29, 156, .7), rgba(100, 179, 44, .7)); /* Chrome 10-25, Safari 5.1-6 */
+              background: linear-gradient(to top right, rgba(94, 29, 156, .7), rgba(100, 179, 44, .7)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            /*padding: 120px 0px 120px 0px;*/
+            overflow: hidden;
         }
-        
+        .ban-h{
+            font-size:4em;
+            color: White;
+        }
+        .a-layer{
+            height: 100%;
+            width: 100%;
+            background:rgba(22,22,22,.6);
+            overflow: hidden;
+        }
         .name {
-            margin-top: 50px ! important;
+            margin-top: 10px ! important;
         }
         
         .info {
@@ -48,7 +71,7 @@
         }
         
         .quote {
-            background: #631264;
+            background: rgba(22,22,22,1);
             color: #fff;
             position: relative;
             z-index: 1;
@@ -79,13 +102,16 @@
         
         .ser {
             margin-top: 60px !important;
-            color: #dcdcdc;
+            color: tomato;
             cursor: pointer;
             padding: 20px 0px 20px 0px;
+            transition: 1s ease;
         }
         
         .ser:hover {
-            background-color: rgba(21, 21, 21, 0.7);
+            background-color: rgba(121, 121, 121, 0.7);
+            color:orange;
+            transform:scale(1.2);
         }
         
         .foot-img {
@@ -102,11 +128,74 @@
             color: #1382f6;
             ;
         }
+        /*all the data of google*/
+        .g-info h4{
+            font-size:3em;
+            color:rgba(88,99,99,1);
+            text-align: center; 
+        }
+        .g-info{
+            padding:70px 30px;
+        }
+        .g-info p{
+            width:70%;
+            margin:0px auto;
+            text-align: center;
+            line-height: 28px;
+            margin-top:20px;
+        }
+        .g-img{
+            padding:90px 30px;
+            
+        }
+        .g-img img{
+            height:300px;
+            border-radius: 50%;
+            width:300px;
+            border:10px solid white;
+            box-shadow:0px 2px 2px 2px grey;
+        }
         
         @media only screen and (max-width: 700px) {
             .cen {
+                
                 margin: 0 auto;
                 width: 300px;
+                margin-top: 50px;
+                padding:10px 10px;
+            }
+            .ban-h{
+                font-size:3em;
+            }
+            .a-info{
+                font-size:16px;
+            }
+            .g-info h4{
+            font-size:3em;
+            color:rgba(88,99,99,1);
+            text-align: center; 
+            }
+            .g-info{
+                padding:20px 20px;
+            }
+            .g-info p{
+                width:80%;
+            }
+            .g-img{
+                padding:30px 30px;
+                
+            }
+            .g-img img{
+                height:250px;
+                border-radius: 50%;
+                width:250px;
+                border:6px solid white;
+                box-shadow:0px 2px 2px 2px grey;
+                margin:0px auto;
+                margin-left:30px;
+            }
+            .a-con{
+                height:300px;
             }
         }
         /* sections of achivements */
