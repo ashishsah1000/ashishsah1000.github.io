@@ -147,15 +147,17 @@
             margin-top:20px;
         }
         .g-img{
+            max-width:500px;
             padding:90px 30px;
+            margin:0px auto;
             
         }
         .g-img img{
-            height:300px;
-            border-radius: 50%;
-            width:300px;
+            height:400px;
+            border-radius: 5px;
             border:10px solid white;
             box-shadow:0px 2px 2px 2px grey;
+            width:500px;
         }
         /*notice section*/
         .notice{
@@ -208,12 +210,10 @@
             }
             .g-img img{
                 height:200px;
-                border-radius: 50%;
-                width:200px;
+                 max-width:300px;
                 border:6px solid white;
                 box-shadow:0px 2px 2px 2px grey;
                 margin:0px auto;
-                margin-left:10px;
             }
             .a-con{
                 height:300px;
